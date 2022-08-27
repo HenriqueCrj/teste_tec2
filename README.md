@@ -1,20 +1,30 @@
-# pacman_hc
+# teste_tec2
 
-A new Flutter project.
+Para rodar o código tem algumas opções, entre as quais eu recomendo usar a plataforma DartPad para execução desse código sem precisar se preocupar com dependências na sua máquina.
 
-## Getting Started
+1 - Clonando o repositório
+Ir para a pasta de sua preferência no computador (O repositório aparecerá nela)
+Abrir uma linha de comando
+Executar a seguinte sequência de comandos:
+  git clone https://github.com/HenriqueCrj/teste_tec2.git
+  cd teste_tec2
+  flutter pub get
 
-This project is a starting point for a Flutter application.
+A partir desse ponto, escolha a plataforma alvo, seja desktop ou mobile. (Minha sugestão é testar no Linux ou Windows, a compilação é mais rápida)
 
-A few resources to get you started if this is your first Flutter project:
+Uma vez escolhida a plataforma, escute o comando:
+  flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+O código será compilado e o programa executado.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No jogo tem um labirinto com alguns inimigos que patrulham certas áreas. Se um inimigo encostar no jogador, uma vida será perdida. Quando todas vidas o jogo acaba, aparecendo uma opção para reiniciar.
+Os aglomerados de ouro podem ser coletados para ganhar pontos, assim como eliminar inimigos com o escudo.
+O escudo dura 12 segundos e é ativado ao obter um item que parece um círculo de energia.
 
+Sons
+https://pixabay.com/sound-effects/
+https://mixkit.co/free-sound-effects/
 
-Background Music
-https://www.chosic.com/download-audio/24706/
+Imagens
+https://craftpix.net/freebies/
+https://itch.io/game-assets/free

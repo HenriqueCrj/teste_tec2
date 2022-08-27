@@ -117,8 +117,9 @@ class _GameState extends State<Game> implements GameListener {
     // Se não houver ouro no mapa
     if (!(_gameController.allDecorations?.any((element) => element is Gold) ??
         false)) {
-      // Tela de vitória
-      endgameDialog("Vitória");
+      // Recria o mapa
+      Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => const Game()));
     }
     if (_gameController.player?.isDead ?? false) {
       if (!isDeathAnimationRunning) {
