@@ -1,0 +1,14 @@
+{ "columns":32,
+ "image":"player\/players_blue_x2.png",
+ "imageheight":832,
+ "imagewidth":512,
+ "margin":0,
+ "name":"players_blue_x2",
+ "spacing":0,
+ "tilecount":1024,
+ "tiledversion":"1.9.1",
+ "tileheight":26,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.8"
+}
